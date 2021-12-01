@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the catchphrase input 1`] = `
+<div>
+  <div>
+    <br />
+    Add da catchphrase:
+    <form>
+      <input
+        type="text"
+        value=""
+      />
+      <button>
+        Add
+      </button>
+    </form>
+    <ul>
+      <li>
+        tree
+      </li>
+      <li>
+        forest
+      </li>
+    </ul>
+  </div>
+</div>
+`;

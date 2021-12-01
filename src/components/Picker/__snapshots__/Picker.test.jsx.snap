@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the dropdown components 1`] = `
+<div>
+  <div>
+    <label>
+      Top
+      <select>
+        <option>
+          turkey
+        </option>
+        <option>
+          fish
+        </option>
+        <option>
+          monkey
+        </option>
+      </select>
+    </label>
+    <label>
+      Middle
+      <select>
+        <option>
+          torso
+        </option>
+        <option>
+          tshirt
+        </option>
+        <option>
+          tux
+        </option>
+      </select>
+    </label>
+    <label>
+      Bottom
+      <select>
+        <option>
+          legs1
+        </option>
+        <option>
+          legs2
+        </option>
+        <option>
+          cargo
+        </option>
+      </select>
+    </label>
+  </div>
+</div>
+`;
