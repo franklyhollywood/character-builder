@@ -5,6 +5,7 @@ export default function Character({ top, middle, bottom }) {
 		<React.Fragment>
 			<br />
 			<div
+				aria-label='top'
 				className='top'
 				style={{
 					backgroundImage: `url(./${top}-top.jpg)`,
@@ -15,6 +16,7 @@ export default function Character({ top, middle, bottom }) {
 				}}
 			></div>
 			<div
+				aria-label='middle'
 				className='middle'
 				style={{
 					backgroundImage: `url(./${middle}-middle.jpg)`,
@@ -25,6 +27,7 @@ export default function Character({ top, middle, bottom }) {
 				}}
 			></div>
 			<div
+				aria-label='bottom'
 				className='bottom'
 				style={{
 					backgroundImage: `url(./${bottom}-bottom.jpg)`,
